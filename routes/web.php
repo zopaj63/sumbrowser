@@ -19,13 +19,13 @@ Route::get('/', function () {
 });
 
 //ruta za zbrajanje iz browsera
-//Route::get("add/{a}/{b}", [NumberController::class, "add"]);
+Route::get("add/{a}/{b}", [NumberController::class, "add"]);
 
 //ruta za prihvat podataka iz forme
-Route::post("/add", [NumberController::class, "add"]);
+//Route::post("/add", [NumberController::class, "add"]);
 
 //ruta za prikaz forme
-Route::get("/form", function()
-{
-    return view("form");
-});
+//Route::get("/form", function()
+//{
+ //   return view("form");
+//});

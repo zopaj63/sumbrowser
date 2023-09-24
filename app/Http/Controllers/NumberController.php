@@ -24,5 +24,6 @@ class NumberController extends Controller
         return view("sum", ["sum"=>$sum]); //sum.blade.php u view
     }
     */
+
 }
 
